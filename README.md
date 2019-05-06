@@ -22,7 +22,7 @@ __What Does This Bot Do?__
 Or:
 "<Pokémon Name>. 😒"
 [1/2 of the time]
-- Pokécord's Spawn Messages with:
+- Pokécord's Spawn Messages with:\n
 "p!catch dud"
 [1/4 of the time]
 Or:
@@ -31,8 +31,11 @@ Or:
 
 * It randomly says:
 - 👀 [1/25 Messages]
+- :D [1/30 Messages]
+- xD [1/45 Messages]
 - 🍾 🐁 🍹 Party Time! :D [1/50 Messages]
 - ?afk <@402474988852084736> Get Pinged. [1/99 Messages] (Pings @Gossie23589#1005)
+- lmao [1/100 Messages]
 
 #Credits
 **TESTERS**
