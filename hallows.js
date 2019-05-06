@@ -76,6 +76,13 @@ bot.on("message", async message => {
         message.channel.send(":eyes:")
     }
     
+    if(Math.floor(Math.random() * 31) === 0) {
+        message.channel.send(":D")
+    }
+    
+    if(Math.floor(Math.random() * 46) === 0) {
+        message.channel.send("xD")
+    }
     
     if(Math.floor(Math.random() * 51) === 0) {
         message.channel.send(":champagne: :mouse2: :tropical_drink: Party Time! :D")
@@ -83,6 +90,10 @@ bot.on("message", async message => {
     
     if(Math.floor(Math.random() * 100) === 0) {
         message.channel.send("?afk <@402474988852084736> Get Pinged.")
+    }
+    
+    if(Math.floor(Math.random() * 101) === 0) {
+        message.channel.send("lmao")
     }
     
     if(message.content.split(' ').indexOf('typo') !== -1) {
