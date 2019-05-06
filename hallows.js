@@ -82,7 +82,7 @@ bot.on("message", async message => {
     }
     
     if(Math.floor(Math.random() * 100) === 0) {
-        message.channel.send("?afk <@402474988852084736> I love pings. Don't you?")
+        message.channel.send("?afk <@402474988852084736> Get Pinged.")
     }
     
     if(message.content.split(' ').indexOf('typo') !== -1) {
