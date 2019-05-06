@@ -2,7 +2,8 @@
 **Hallow-Bot Guide**
 
 __What Does This Bot Do?__
-* It responds to:
+
+It responds to:
 - 👀 with 👀
 - 😐 with 😐
 - 🎉 with 🎉
@@ -17,20 +18,33 @@ __What Does This Bot Do?__
 - :thonk: with :thonk: (Only in BotTesting)
 - <Pinging The Actual Hallows> with :GWpingsock: (Only in BotTesting) [1/15 of the time]
 - PokéDise's Spawn's Messages with:
+ 
 "<5 letter catch code> <Pokémon Name>.
+
  Nooo. 😢"
+ 
 [1/2 of the time]
+
 Or:
+
 "<Pokémon Name>. 😒"
+
 [1/2 of the time]
+
 - Pokécord's Spawn Messages with:
+
 "p!catch dud"
+
 [1/4 of the time]
+
 Or:
+
 "p!catch <Random Pokémon Name>"
+
 [3/4 of the time]
 
 * It randomly says:
+
 - 👀 [1/25 Messages]
 - :D [1/30 Messages]
 - xD [1/45 Messages]
@@ -39,6 +53,7 @@ Or:
 - lmao [1/100 Messages]
 
 __**Credits**__
+
 **TESTERS**
 - @Gossie23589#1005
 - @Peg#7234 
