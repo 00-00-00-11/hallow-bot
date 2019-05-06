@@ -22,7 +22,7 @@ __What Does This Bot Do?__
 Or:
 "<Pokémon Name>. 😒"
 [1/2 of the time]
-- Pokécord's Spawn Messages with:\n
+- Pokécord's Spawn Messages with:
 "p!catch dud"
 [1/4 of the time]
 Or:
