@@ -37,7 +37,7 @@ Or:
 - ?afk <@402474988852084736> Get Pinged. [1/99 Messages] (Pings @Gossie23589#1005)
 - lmao [1/100 Messages]
 
-##Credits
+__**Credits**__
 **TESTERS**
 - @Gossie23589#1005
 - @Peg#7234 
@@ -54,4 +54,4 @@ Or:
 
 Can't forget Hallows themself.
 
-Thanks! ~~©2019 Sapphire, Hallow-Bot ~~
+Thanks! ©2019 Sapphire, Hallow-Bot
