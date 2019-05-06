@@ -1,5 +1,6 @@
 # Hallow-Bot
 **Hallow-Bot Guide**
+
 __What Does This Bot Do?__
 * It responds to:
 - 👀 with 👀
