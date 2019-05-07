@@ -99,7 +99,7 @@ bot.on("message", async message => {
     }
     
     if(Math.floor(Math.random() * 100) === 0) {
-        message.channel.send("?afk <@402474988852084736> Get Pinged.")
+        message.channel.send("?afk <@402474988852084736> Get pinged.")
     }
     
     if(Math.floor(Math.random() * 101) === 0) {
