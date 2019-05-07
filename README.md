@@ -8,14 +8,18 @@ It responds to:
 - 😐 with 😐
 - 🎉 with 🎉
 - 🔫 with:
+
 🚫 🛡 🚫
+
 🛡 🐁 🛡
+
 🚫 🛡 🚫
 - p!duel with "I never lose."
 - "typo" or "typos" with "I never make typos. 😤
 - <Pinging the Bot> and saying "sleep" with "After I fight two more raiders."
 - <Pinging the Bot> with :GWpingsock: (Only in BotTesting)
 - :thonk: with :thonk: (Only in BotTesting)
+- xD with :GWeulixexd: (Only in BotTesting)
 - <Pinging The Actual Hallows> with :GWpingsock: (Only in BotTesting) [1/15 of the time]
 - PokéDise's Spawn's Messages with:
  
