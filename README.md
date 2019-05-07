@@ -53,7 +53,7 @@ Or:
 - :D [1/30 Messages]
 - xD [1/45 Messages]
 - 🍾 🐁 🍹 Party Time! :D [1/50 Messages]
-- ?afk <@402474988852084736> Get Pinged. [1/99 Messages] (Pings @Gossie23589#1005)
+- ?afk <@402474988852084736> Get pinged. [1/99 Messages] (Pings @Gossie23589#1005)
 - lmao [1/100 Messages]
 
 __**Credits**__
