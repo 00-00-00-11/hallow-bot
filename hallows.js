@@ -74,6 +74,14 @@ bot.on("message", async message => {
         }
     }
     
+    if(message.content.split(' ').indexOf('xD') !== -1) {
+        if(message.author.id === "574300620232589323") {
+            return;
+        } else {
+            message.channel.send("<:GWeulixexd:575463217036394506>")
+        }
+    }
+    
     if(Math.floor(Math.random() * 26) === 0) {
         message.channel.send(":eyes:")
     }
