@@ -8,6 +8,8 @@ bot.on("ready", async () => {
     console.log(`${bot.user.username} is online in ${bot.guilds.size} servers!`)
     bot.user.setActivity("Spotify 📄", {type: "LISTENING"});
     bot.user.setStatus('dnd') 
+    let timestamp = new Date()
+    console.log("Bot Turned on at: " + timestamp)
     
 });
 
@@ -118,23 +120,25 @@ bot.on("message", async message => {
         message.channel.stopTyping()
     }
     
-    if(message.embeds.length === 1) {
-        if (message.embeds[0].description.includes('Guess the pokémon and type p!catch <pokémon> to catch it!')) {
-            if(Math.floor(Math.random() * 5) === 0) {
-                message.channel.startTyping()
-                setTimeout(function() {
-                    message.channel.send("p!catch dud");
-                }, 1200)
-                message.channel.stopTyping();
-            } else {
-                message.channel.startTyping()
-                setTimeout(function() {
-                    var pokemonspawn = `${pokemons[Math.floor(Math.random() * pokemons.length)]}`
-                    pokemonspawn.toLowerCase()
-                    message.channel.send(`p!catch ` + pokemonspawn.toLowerCase())
-                }, 1400)
-                message.channel.stopTyping()
-            }        
+    if(message.author.id === "365975655608745985") {
+        if(message.embeds.length === 1) {
+            if(message.embeds[0].description.includes('Guess the pokémon and type p!catch <pokémon> to catch it!')) {
+                if(Math.floor(Math.random() * 101) !== 0) {
+                    message.channel.startTyping()
+                    setTimeout(function() {
+                        message.channel.send("p!catch dud");
+                    }, 1200)
+                    message.channel.stopTyping();
+                } else {
+                    message.channel.startTyping()
+                    setTimeout(function() {
+                        var pokemonspawn = `${pokemons[Math.floor(Math.random() * pokemons.length)]}`
+                        pokemonspawn.toLowerCase()
+                        message.channel.send(`p!catch ` + pokemonspawn.toLowerCase())
+                    }, 1400)
+                    message.channel.stopTyping()
+                }        
+            }
         }
     }
     
