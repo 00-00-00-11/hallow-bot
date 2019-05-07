@@ -26,7 +26,11 @@ bot.on("message", async message => {
         if(message.author.id === "574300620232589323") {
             return;
         } else {
-            message.channel.send(":eyes:")
+            message.channel.startTyping();
+            setTimeout(function(){
+                message.channel.send(":eyes:")
+                message.channel.stopTyping();
+            }, 500)
         }
     }
     
@@ -34,7 +38,11 @@ bot.on("message", async message => {
         if(message.author.id === "574300620232589323") {
             return;
         } else {
-            message.channel.send(":neutral_face:")
+            message.channel.startTyping();
+            setTimeout(function(){
+                message.channel.send(":neutral_face:")
+                message.channel.stopTyping();
+            }, 500)
         }   
     }
     
@@ -42,26 +50,46 @@ bot.on("message", async message => {
         if(message.author.id === "574300620232589323") {
             return;
         } else {
-            message.channel.send("<:thonk:574791112708063232>")
+            message.channel.startTyping();
+            setTimeout(function(){
+                message.channel.send("<:thonk:574791112708063232>")
+                message.channel.stopTyping();
+            }, 500)
         }   
     }
     
     if(message.content.split(' ').indexOf('<@309485087542476812>') !== -1) {
         if(Math.floor(Math.random() * 16) === 0) {
-            message.channel.send("<:GWpingsock:574376380222013475>")
+            message.channel.startTyping();
+            setTimeout(function(){
+                message.channel.send("<:GWpingsock:574376380222013475>")
+                message.channel.stopTyping();
+            }, 500)
         }
     }
     
     if(message.content.split(' ').indexOf('p!duel') !== -1) {
-        message.channel.send("I never lose.")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send("I never lose.")
+            message.channel.stopTyping();
+        }, 1000)
     }
     
     if(message.content.split(' ').indexOf('🔫') !== -1) {
-        message.channel.send(":no_entry_sign: :shield: :no_entry_sign:\n:shield: :mouse2: :shield:\n:no_entry_sign: :shield: :no_entry_sign:")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send(":no_entry_sign: :shield: :no_entry_sign:\n:shield: :mouse2: :shield:\n:no_entry_sign: :shield: :no_entry_sign:")
+            message.channel.stopTyping();
+        }, 2000)
     }
     
     if(message.content.split(' ').indexOf('🎉') !== -1) {
-        message.channel.send(":tada:")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send(":tada:")
+            message.channel.stopTyping();
+        }, 500)
     }
     
     if(message.content.split(' ').indexOf('sleep') !== -1) {
@@ -78,32 +106,60 @@ bot.on("message", async message => {
         if(message.author.id === "574300620232589323") {
             return;
         } else {
-            message.channel.send("<:GWeulixexd:575463217036394506>")
+            message.channel.startTyping();
+            setTimeout(function(){
+                message.channel.send("<:GWeulixexd:575463217036394506>")
+                message.channel.stopTyping();
+            }, 500)
         }
     }
     
     if(Math.floor(Math.random() * 26) === 0) {
-        message.channel.send(":eyes:")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send(":eyes:")
+            message.channel.stopTyping();
+        }, 500)
     }
     
     if(Math.floor(Math.random() * 31) === 0) {
-        message.channel.send(":D")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send(":D")
+            message.channel.stopTyping();
+        }, 500)
     }
     
     if(Math.floor(Math.random() * 46) === 0) {
-        message.channel.send("xD")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send("xD")
+            message.channel.stopTyping();
+        }, 500)
     }
     
     if(Math.floor(Math.random() * 51) === 0) {
-        message.channel.send(":champagne: :mouse2: :tropical_drink: Party Time! :D")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send(":champagne: :mouse2: :tropical_drink: Party Time! :D")
+            message.channel.stopTyping();
+        }, 1500)
     }
     
     if(Math.floor(Math.random() * 100) === 0) {
-        message.channel.send("?afk <@402474988852084736> Get pinged.")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send("?afk <@402474988852084736>")
+            message.channel.stopTyping();
+        }, 1000)
     }
     
     if(Math.floor(Math.random() * 101) === 0) {
-        message.channel.send("lmao")
+        message.channel.startTyping();
+        setTimeout(function(){
+            message.channel.send("lmao")
+            message.channel.stopTyping();
+        }, 500)
     }
     
     if(message.content.split(' ').indexOf('typo') !== -1) {
@@ -117,7 +173,11 @@ bot.on("message", async message => {
         if(message.content.split(' ').indexOf('sleep') !== -1) {
             
         } else {
-            message.channel.send("<:GWpingsock:574376380222013475>")
+            message.channel.startTyping();
+            setTimeout(function(){
+                message.channel.send("<:GWpingsock:574376380222013475>")
+                message.channel.stopTyping();
+            }, 500)
         }
     }
     if(message.content.split(' ').indexOf('typos') !== -1) {
